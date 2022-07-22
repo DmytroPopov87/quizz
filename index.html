@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dmpop quizz</title>
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- top section -->
+   <div class="intro py-3 bg-white text-center">
+    <div class="container">
+        <h2 class="text-primary display-3 my-4">dmpop Quizz</h2>
+    </div>
+   </div>
+
+   <!-- score block -->
+   <div class="result py-4 d-none bg-light text-center">  
+    <div class="container-lead">
+        <p>Your score:  <span class="text-primary display-4 p-3">0%</span>. Congratulations!</p>
+    </div>
+   </div>
+   <!-- end of score block -->
+
+   <!-- quizz section  -->
+
+   <div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white">On with the questions...</h2>
+
+        <form class="quiz-form text-light">
+            <!-- start of q1 -->
+            <div class="my-5">
+            <p class="lead font-weight-normal">1. Who directed ‘Pulp Fiction’?</p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="A" checked> <span class="ra">✅</span> 
+                <label class="form-check-label">Quentin Tarantino</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="B"> <span class="wa">❌</span>
+                <label class="form-check-label">Joe Biden</label>
+            </div>
+            </div>
+            <!-- end of q1 -->
+
+            <!-- start of q2 -->
+            <div class="my-5">
+            <p class="lead font-weight-normal">2. What is the Russian boxer Rocky fights in Rocky IV called?</p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="A" checked> <span class="wa">❌</span>
+                <label class="form-check-label">Dmytro Popov</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="B"> <span class="ra">✅</span>
+                <label class="form-check-label">Ivan Drago</label>
+            </div>
+            </div>
+            <!-- end of q2 -->
+
+            <!-- start of q3 -->
+            <div class="my-5">
+            <p class="lead font-weight-normal">3. How many billboards were outside Ebbing, Missouri?</p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="A" checked> <span class="ra">✅</span>
+                <label class="form-check-label">Three</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="B"> <span class="wa">❌</span>
+                <label class="form-check-label">Eight</label>
+            </div>
+            </div>
+            <!-- end of q3 -->
+
+            <!-- start of q4 -->
+            <div class="my-5">
+            <p class="lead font-weight-normal">4. What was the first movie released in the Marvel Cinematic Universe?</p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="A" checked> <span class="ra">✅</span>
+                <label class="form-check-label">Iron Man</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B"> <span class="wa">❌</span>
+                <label class="form-check-label">Spider Man</label>
+            </div>
+            </div>
+            <!-- end of q4 -->
+
+            <!-- start of q5 -->
+            <div class="my-5">
+            <p class="lead font-weight-normal">5. Leonardo DiCaprio won the Academy Award for Best Actor for his role in which film?</p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="A" checked> <span class="wa">❌</span>
+                <label class="form-check-label">Titanic</label>
+            </div>
+
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="B"> <span class="ra">✅</span>
+                <label class="form-check-label">The Revenant</label>
+            </div>
+            </div>
+            <!-- end of q5 -->
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+        </form>
+    </div>
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   <!-- jquery -->
+   <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+    <!-- ============================================================================================================================================================================ -->
+    <!-- main script -->
+    <script src="script.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- ============================================================================================================================================================================ -->
+</body>
+</html>
